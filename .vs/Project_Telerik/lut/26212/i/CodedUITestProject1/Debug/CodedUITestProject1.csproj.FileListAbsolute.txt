@@ -1,0 +1,4 @@
+D:\Projects\Sample\Project_Telerik\.vs\Project_Telerik\lut\0\b\CodedUITestProject1\bin\Debug\CodedUITestProject1.dll
+D:\Projects\Sample\Project_Telerik\.vs\Project_Telerik\lut\0\i\CodedUITestProject1\Debug\CodedUITestProject1.csproj.CoreCompileInputs.cache
+D:\Projects\Sample\Project_Telerik\.vs\Project_Telerik\lut\0\i\CodedUITestProject1\Debug\CodedUITestProject1.csproj.CopyComplete
+D:\Projects\Sample\Project_Telerik\.vs\Project_Telerik\lut\0\i\CodedUITestProject1\Debug\CodedUITestProject1.dll
