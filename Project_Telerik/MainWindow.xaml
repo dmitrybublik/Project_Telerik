@@ -21,7 +21,9 @@
                 <Setter Property="ContentTemplate">
                     <Setter.Value>
                         <DataTemplate>
-                            <local:CustomElementView DataContext="{Binding RelativeSource={RelativeSource AncestorType={x:Type local:CustomDiagramShape}}, Path=DataContext}"/>
+                            <Border>
+                                <local:CustomElementView DataContext="{Binding RelativeSource={RelativeSource AncestorType={x:Type local:CustomDiagramShape}}, Path=DataContext}"/>
+                            </Border>
                         </DataTemplate>
                     </Setter.Value>
                 </Setter>
