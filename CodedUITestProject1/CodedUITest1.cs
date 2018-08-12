@@ -10,6 +10,8 @@ using Microsoft.VisualStudio.TestTools.UITest.Extension;
 using Keyboard = Microsoft.VisualStudio.TestTools.UITesting.Keyboard;
 using Microsoft.VisualStudio.TestTools.UITesting.WpfControls;
 using System.IO;
+using System.Linq;
+using FluentAssertions;
 
 namespace CodedUITestProject1
 {
@@ -59,7 +61,9 @@ namespace CodedUITestProject1
             //The CodedUI can't find the ItemsControl
             itemsControl.Find();
             itemsControl.WaitForControlReady();
-            string[] s = itemsControl.Items.GetValuesOfControls();
+            var items = itemsControl.Items.OfType<WpfListItem>().ToArray();
+            string[] s = items.Select(x => x.AutomationId).ToArray();
+            s.Should().BeEquivalentTo("ItemA", "ItemB", "ItemC", "ItemD", "ItemE", "ItemF", "ItemG", "ItemH");
         }
         #region Additional test attributes
 
@@ -74,7 +78,7 @@ namespace CodedUITestProject1
         [TestInitialize()]
         public void MyTestInitialize()
         {
-            App = ApplicationUnderTest.Launch(@"D:\Projects\Sample\Project_Telerik\Project_Telerik\bin\Debug\Project_Telerik.exe");
+            App = ApplicationUnderTest.Launch(@"e:\Projects\Temp\Project_Telerik\Project_Telerik\bin\Debug\Project_Telerik.exe");
             var window = new WpfWindow();
             window.SearchProperties.Add(new PropertyExpression(WpfControl.PropertyNames.Name, "Telerik UI for WPF Trial"));
             window.Find();

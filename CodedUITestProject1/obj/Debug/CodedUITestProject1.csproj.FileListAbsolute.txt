@@ -1,0 +1,11 @@
+e:\Projects\Temp\Project_Telerik\CodedUITestProject1\bin\Debug\CodedUITestProject1.dll
+e:\Projects\Temp\Project_Telerik\CodedUITestProject1\bin\Debug\CodedUITestProject1.pdb
+e:\Projects\Temp\Project_Telerik\CodedUITestProject1\obj\Debug\CodedUITestProject1.csproj.CoreCompileInputs.cache
+e:\Projects\Temp\Project_Telerik\CodedUITestProject1\obj\Debug\CodedUITestProject1.dll
+e:\Projects\Temp\Project_Telerik\CodedUITestProject1\obj\Debug\CodedUITestProject1.pdb
+E:\Projects\Temp\Project_Telerik\CodedUITestProject1\bin\Debug\FluentAssertions.dll
+E:\Projects\Temp\Project_Telerik\CodedUITestProject1\bin\Debug\System.ValueTuple.dll
+E:\Projects\Temp\Project_Telerik\CodedUITestProject1\bin\Debug\FluentAssertions.pdb
+E:\Projects\Temp\Project_Telerik\CodedUITestProject1\bin\Debug\FluentAssertions.xml
+E:\Projects\Temp\Project_Telerik\CodedUITestProject1\bin\Debug\System.ValueTuple.xml
+E:\Projects\Temp\Project_Telerik\CodedUITestProject1\obj\Debug\CodedUITestProject1.csproj.CopyComplete
